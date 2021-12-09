@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oblig4fxml.HelloController">
+   <children>
+      <Button layoutX="101.0" layoutY="266.0" mnemonicParsing="false" onAction="#Registrer" text="Registrer" />
+      <Button layoutX="265.0" layoutY="266.0" mnemonicParsing="false" onAction="#Slett" text="Slett" />
+      <Label layoutX="40.0" layoutY="61.0" text="Personregister">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblText" alignment="TOP_LEFT" layoutX="431.0" layoutY="68.0" prefHeight="287.0" prefWidth="163.0" />
+      <TextField fx:id="txtNavn" layoutX="40.0" layoutY="167.0" promptText="Navn" />
+      <TextField fx:id="txtPersonnummer" layoutX="243.0" layoutY="167.0" promptText="Personnummer" />
+   </children>
+</AnchorPane>
